@@ -1,0 +1,17 @@
+{
+  "name": "optional-chaining-esnext-example",
+  "version": "1.0.0",
+  "description": "Just an example of the new operator with babel",
+  "main": "index.js",
+  "repository": "dd",
+  "author": "David Salazar (CraftingCode Youtube Channel))",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-optional-chaining": "^7.2.0"
+  },
+  "scripts": {
+    "build": "babel src -d dist"
+  }
+}
