@@ -1,1 +1,19 @@
-Optional Chaining Example ESNext
+# Optional Chaining Example ESNext
+
+## Install
+
+```
+# yarn install
+```
+
+## Build
+
+```
+# yarn build
+```
+
+## Start
+
+```
+# yarn start
+```
