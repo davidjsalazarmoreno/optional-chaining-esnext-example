@@ -1,5 +1,7 @@
 # Optional Chaining Example ESNext
 
+Video explanation (spanish) http://bit.ly/32mB3DD
+
 ## Install
 
 ```
