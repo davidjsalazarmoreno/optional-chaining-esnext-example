@@ -15,7 +15,7 @@ try {
   const firstOption = account.profile.options[0]
   console.log(firstOption)
 } catch(error) {
-  console.log(error)
+  console.log('Oops, where\'s options?')
 }
 
 // Nueva declaración usando short circuit &&
@@ -25,6 +25,8 @@ const firstOptionV2 = account.profile.options && account.profile.options[0]
 console.log(firstOptionV2 === undefined)
 
 const firstOptionV3 = account.profile.options?.[0]
+
+console.log(firstOptionV2 === undefined)
 
 /**
  * Usando de una muy mala forma este operador
