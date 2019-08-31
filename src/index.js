@@ -1,5 +1,5 @@
 // Ejemplo 1
-const account = {
+let account = {
   type: 'premium',
   profile: {
     nickName: 'CraftingCode',
@@ -26,6 +26,9 @@ console.log(firstOptionV2 === undefined)
 
 const firstOptionV3 = account.profile.options?.[0]
 
-const foo = {}
-const horribleHorribleNesting = foo?.bar?.baz?.hello?.world?.bye?.hola?.chao?.optional?.chaining?.of?.death;
-console.log(horribleHorribleNesting)
+/**
+ * Usando de una muy mala forma este operador
+ */
+// const foo = {}
+// const horribleHorribleNesting = foo?.bar?.baz?.hello?.world?.bye?.hola?.chao?.optional?.chaining?.of?.death;
+// console.log(horribleHorribleNesting)
